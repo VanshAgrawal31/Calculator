@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main()
+{
+    int units,difference,output;
+    scanf("%d",&units);
+    if(units<200)
+    {
+        printf("Bill = 0");
+    }
+    else {
+        difference=units-200;
+        output=difference*5;
+        printf("The bill is %d",output);
+    }
+    
+}
